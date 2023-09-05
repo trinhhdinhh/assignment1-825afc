@@ -44,7 +44,7 @@ class PublicTests < MiniTest::Test
         assert_equal({1 => 2, 5 => 4}, zipHash([1, 5], [2, 4]))
         assert_nil(zipHash([1], [2,3]))
         assert_equal({"Umar" => "prof", "Justin" => "TA", "Yuhong" => "TA"},
-                      zipHash(["Mamat", "Justin", "Yuhong"], ["prof", "TA", "TA"]))
+                      zipHash(["Umar", "Justin", "Yuhong"], ["prof", "TA", "TA"]))
     end
 
     def test_public_hashtoarray
